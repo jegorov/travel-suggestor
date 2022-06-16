@@ -1,0 +1,12 @@
+greeting:
+  message: "hello"
+quarkus:
+  rest-client:
+    "eu.jegorov.external.service.open_weather_map.service.OpenWeatherMapService":
+              scope: 'javax.inject.Singleton'
+              url: 'https://api.openweathermap.org/data/3.0/'
+#              url: 'https://api.openweathermap.org/data/2.5/'
+
+
+external:
+  open_weather_api_key: "e3d67daf38165ca457e4a32fe16cf90f"
